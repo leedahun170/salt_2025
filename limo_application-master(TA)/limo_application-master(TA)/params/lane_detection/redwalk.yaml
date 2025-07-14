@@ -1,0 +1,25 @@
+# params/crosswalk.yaml
+# Common parameters for detect crosswalk
+---
+
+# Dynamic parameters cannot have a namespace
+
+# yellow_h_low:          0
+# yellow_h_high:         60
+# yellow_l_low:          90
+# yellow_l_high:         220
+# yellow_s_low:          100
+# yellow_s_high:         255
+
+red_h_low:          0
+red_h_high:         10
+red_l_low:          50
+red_l_high:         255
+red_s_low:          100
+red_s_high:         255
+
+rho:                  100
+theta:                1
+threshold:            5
+
+crosswalk_detect_threshold: 2
